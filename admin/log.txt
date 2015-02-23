@@ -1,0 +1,197 @@
+***********
+Estatus: 200
+Pago: INVALID
+**********************
+idVenta: 
+**********************
+Antes del contructor**********************
+contructor**********************
+setNoId**********************
+************************************
+paypal: { "id":"","idVenta":"","mc_gross":"","protection_eligibility":"","address_status":"","payer_id":"","tax":"","address_street":"","payment_date":"","payment_status":"","charset":"","address_zip":"","first_name":"","mc_fee":"","address_country_code":"","address_name":"","notify_version":"","custom":"","payer_status":"","business":"","address_country":"","address_city":"","quantity":"","verify_sign":"","payer_email":"","txn_id":"","payment_type":"","last_name":"","address_state":"","receiver_email":"","payment_fee":"","receiver_id":"","txn_type":"","item_name":"","mc_currency":"","item_number":"","residence_country":"","test_ipn":"","handling_amount":"","transaction_subject":"","payment_gross":"","shipping":"","ipn_track_id":"","estatus":"200","pago":"INVALID"}
+add: 5
+**********************
+modVenta:**********************
+Venta:      
+**********************
+salgo
+mc_gross => 145.35
+protection_eligibility => Eligible
+address_status => unconfirmed
+payer_id => KM56E5VC4SBY2
+tax => 0.00
+address_street => calle Vilamarí 76993- 17469
+payment_date => 03:16:57 Feb 12, 2015 PST
+payment_status => Completed
+charset => windows-1252
+address_zip => 02001
+first_name => Test
+mc_fee => 5.29
+address_country_code => ES
+address_name => Test Buyer
+notify_version => 3.8
+custom => 
+payer_status => verified
+business => programacion211-facilitator@gmail.com
+address_country => Spain
+address_city => Albacete
+quantity => 1
+verify_sign => AI36sk2Aln3iC.t.mla1wMizPRcQA.zQiXs6W2te.nf3Vf6u4Np6ZvB2
+payer_email => programacion211-buyer@gmail.com
+txn_id => 8E9394245C067931P
+payment_type => instant
+last_name => Buyer
+address_state => Albacete
+receiver_email => programacion211-facilitator@gmail.com
+payment_fee => 
+receiver_id => ZVW6PNKX7UN8W
+txn_type => web_accept
+item_name => 49
+mc_currency => EUR
+item_number => 
+residence_country => ES
+test_ipn => 1
+handling_amount => 0.00
+transaction_subject => 
+payment_gross => 
+shipping => 0.00
+ipn_track_id => f4e7a4b34d70
+***********
+Estatus: 200
+Pago: VERIFIED
+**********************
+idVenta: 
+**********************
+Antes del contructor**********************
+contructor**********************
+setNoId**********************
+************************************
+paypal: { "id":"","idVenta":"","mc_gross":"145.35","protection_eligibility":"Eligible","address_status":"unconfirmed","payer_id":"KM56E5VC4SBY2","tax":"0.00","address_street":"calle Vilamar\u00ed 76993- 17469","payment_date":"03:16:57 Feb 12, 2015 PST","payment_status":"Completed","charset":"windows-1252","address_zip":"02001","first_name":"Test","mc_fee":"5.29","address_country_code":"ES","address_name":"Test Buyer","notify_version":"3.8","custom":"","payer_status":"verified","business":"programacion211-facilitator@gmail.com","address_country":"Spain","address_city":"Albacete","quantity":"1","verify_sign":"AI36sk2Aln3iC.t.mla1wMizPRcQA.zQiXs6W2te.nf3Vf6u4Np6ZvB2","payer_email":"programacion211-buyer@gmail.com","txn_id":"8E9394245C067931P","payment_type":"instant","last_name":"Buyer","address_state":"Albacete","receiver_email":"programacion211-facilitator@gmail.com","payment_fee":"","receiver_id":"ZVW6PNKX7UN8W","txn_type":"web_accept","item_name":"49","mc_currency":"EUR","item_number":"","residence_country":"ES","test_ipn":"1","handling_amount":"0.00","transaction_subject":"","payment_gross":"","shipping":"0.00","ipn_track_id":"f4e7a4b34d70","estatus":"200","pago":"VERIFIED"}
+add: 6
+**********************
+modVenta:**********************
+Venta:      
+**********************
+salgo
+mc_gross => 145.35
+protection_eligibility => Eligible
+address_status => unconfirmed
+payer_id => KM56E5VC4SBY2
+tax => 0.00
+address_street => calle Vilamarí 76993- 17469
+payment_date => 03:23:35 Feb 12, 2015 PST
+payment_status => Completed
+charset => windows-1252
+address_zip => 02001
+first_name => Test
+mc_fee => 5.29
+address_country_code => ES
+address_name => Test Buyer
+notify_version => 3.8
+custom => 
+payer_status => verified
+business => programacion211-facilitator@gmail.com
+address_country => Spain
+address_city => Albacete
+quantity => 1
+verify_sign => A19LTdRzlGQP6UdbKKthOR8iXy-HAZPHxQdFzo8dOUhWzwAt3JUey.bd
+payer_email => programacion211-buyer@gmail.com
+txn_id => 8M378397M1672271Y
+payment_type => instant
+last_name => Buyer
+address_state => Albacete
+receiver_email => programacion211-facilitator@gmail.com
+payment_fee => 
+receiver_id => ZVW6PNKX7UN8W
+txn_type => web_accept
+item_name => venta-50
+mc_currency => EUR
+item_number => 
+residence_country => ES
+test_ipn => 1
+handling_amount => 0.00
+transaction_subject => 
+payment_gross => 
+shipping => 0.00
+ipn_track_id => fc82d4f7dffe1
+***********
+Estatus: 200
+Pago: VERIFIED
+**********************
+idVenta: 50
+**********************
+Antes del contructor**********************
+contructor**********************
+setNoId**********************
+************************************
+paypal: { "id":"","idVenta":"50","mc_gross":"145.35","protection_eligibility":"Eligible","address_status":"unconfirmed","payer_id":"KM56E5VC4SBY2","tax":"0.00","address_street":"calle Vilamar\u00ed 76993- 17469","payment_date":"03:23:35 Feb 12, 2015 PST","payment_status":"Completed","charset":"windows-1252","address_zip":"02001","first_name":"Test","mc_fee":"5.29","address_country_code":"ES","address_name":"Test Buyer","notify_version":"3.8","custom":"","payer_status":"verified","business":"programacion211-facilitator@gmail.com","address_country":"Spain","address_city":"Albacete","quantity":"1","verify_sign":"A19LTdRzlGQP6UdbKKthOR8iXy-HAZPHxQdFzo8dOUhWzwAt3JUey.bd","payer_email":"programacion211-buyer@gmail.com","txn_id":"8M378397M1672271Y","payment_type":"instant","last_name":"Buyer","address_state":"Albacete","receiver_email":"programacion211-facilitator@gmail.com","payment_fee":"","receiver_id":"ZVW6PNKX7UN8W","txn_type":"web_accept","item_name":"venta-50","mc_currency":"EUR","item_number":"","residence_country":"ES","test_ipn":"1","handling_amount":"0.00","transaction_subject":"","payment_gross":"","shipping":"0.00","ipn_track_id":"fc82d4f7dffe1","estatus":"200","pago":"VERIFIED"}
+add: 7
+**********************
+modVenta:50**********************
+Venta: 50  12-02-2015 / 06:22,47 12 12 No
+**********************
+entra conVERIFIED***********
+pago si
+modifico la venta
+salgo
+mc_gross => 96.95
+protection_eligibility => Eligible
+address_status => unconfirmed
+payer_id => KM56E5VC4SBY2
+tax => 0.00
+address_street => calle Vilamarí 76993- 17469
+payment_date => 03:27:08 Feb 12, 2015 PST
+payment_status => Completed
+charset => windows-1252
+address_zip => 02001
+first_name => Test
+mc_fee => 3.65
+address_country_code => ES
+address_name => Test Buyer
+notify_version => 3.8
+custom => 
+payer_status => verified
+business => programacion211-facilitator@gmail.com
+address_country => Spain
+address_city => Albacete
+quantity => 1
+verify_sign => AwzVX6B79KQ79U-e.fX24Cxf-qhHAr1C.Lg78ZjnJahY4S6oR9fHOOH2
+payer_email => programacion211-buyer@gmail.com
+txn_id => 0M082370WH4047639
+payment_type => instant
+last_name => Buyer
+address_state => Albacete
+receiver_email => programacion211-facilitator@gmail.com
+payment_fee => 
+receiver_id => ZVW6PNKX7UN8W
+txn_type => web_accept
+item_name => venta-51
+mc_currency => EUR
+item_number => 
+residence_country => ES
+test_ipn => 1
+handling_amount => 0.00
+transaction_subject => 
+payment_gross => 
+shipping => 0.00
+ipn_track_id => 366aea5ead42d
+***********
+Estatus: 200
+Pago: VERIFIED
+**********************
+idVenta: 51
+**********************
+Antes del contructor**********************
+contructor**********************
+setNoId**********************
+************************************
+paypal: { "id":"","idVenta":"51","mc_gross":"96.95","protection_eligibility":"Eligible","address_status":"unconfirmed","payer_id":"KM56E5VC4SBY2","tax":"0.00","address_street":"calle Vilamar\u00ed 76993- 17469","payment_date":"03:27:08 Feb 12, 2015 PST","payment_status":"Completed","charset":"windows-1252","address_zip":"02001","first_name":"Test","mc_fee":"3.65","address_country_code":"ES","address_name":"Test Buyer","notify_version":"3.8","custom":"","payer_status":"verified","business":"programacion211-facilitator@gmail.com","address_country":"Spain","address_city":"Albacete","quantity":"1","verify_sign":"AwzVX6B79KQ79U-e.fX24Cxf-qhHAr1C.Lg78ZjnJahY4S6oR9fHOOH2","payer_email":"programacion211-buyer@gmail.com","txn_id":"0M082370WH4047639","payment_type":"instant","last_name":"Buyer","address_state":"Albacete","receiver_email":"programacion211-facilitator@gmail.com","payment_fee":"","receiver_id":"ZVW6PNKX7UN8W","txn_type":"web_accept","item_name":"venta-51","mc_currency":"EUR","item_number":"","residence_country":"ES","test_ipn":"1","handling_amount":"0.00","transaction_subject":"","payment_gross":"","shipping":"0.00","ipn_track_id":"366aea5ead42d","estatus":"200","pago":"VERIFIED"}
+add: 8
+**********************
+modVenta:51**********************
+Venta: 51  12-02-2015 / 06:26,30 pablo camacho No
+**********************
+entra conVERIFIED***********
+pago si
+modifico la venta
+salgo

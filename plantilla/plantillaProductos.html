@@ -1,0 +1,24 @@
+<div class="email-content">
+    <div class="email-content-header pure-g">
+        <div class="pure-u-1">
+            <h1 class="email-content-title">{nombre}</h1>
+            <p class="email-content-subtitle">
+                Precio {precio}, iva <span>{iva}%</span>
+            </p>
+        </div>
+
+        <div class="email-content-controls pure-u-1">  
+            <img src="{punto}/{ruta}" alt="imagen" class="imagen"/>
+            <a href="?op=add&action=do&id={id}&pagina={pagina}&order={order}"
+               class="secondary-button pure-button comprar">                                
+                <img src="{punto}/img/buy.png" alt="buy" />
+            </a>
+        </div>
+    </div>
+
+    <div class="email-content-body">
+        <p>
+            {descripcion}
+        </p>
+    </div>
+</div>

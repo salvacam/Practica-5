@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tienda Deportes</title>
+        <script src="{punto}/js/vendor/alertify.js"></script>
+        <link rel="stylesheet" href="{punto}/css/vendor/alertify.css">
+        <link rel="stylesheet" href="{punto}/css/vendor/pure-min.css">
+        <link rel="stylesheet" href="{punto}/css/vendor/email.css">
+    </head>
+
+    <body>
+        <div id="layout" class="content pure-g">
+            <div id="nav" class="pure-u">
+                <img src="{punto}/img/logo.png" id="logo" alt="logo" /> 
+            </div>
+
+            <div id="list" class="pure-u-1">
+                <div class="email-item email-item-selected pure-g">
+                    <div class="pure-u">
+                        Ordenar<br/>
+                        <a class="secondary-button pure-button ordenar" href="?order=nombre">Por Nombre</a>
+                        <a class="secondary-button pure-button ordenar" href="?order=nombre Desc">Por Nombre Inverso</a>
+                        <a class="secondary-button pure-button ordenar" href="?order=precio">Por Precio</a>
+                        <a class="secondary-button pure-button ordenar" href="?order=precio Desc">Por Precio Inverso</a>                     
+                    </div>
+
+                    <div class="pure-u-1">
+                        <!-- carrito de la compra  -->
+                        <br/>
+                        <h3 class="email-subject">Carrito de la compra</h3>   
+                        <table class="pure-table">
+                            <thead>
+                                <tr>
+                                    <th>Nombre</th>
+                                    <th>Precio</th>
+                                    <th>Ud.</th>
+                                </tr>
+                            </thead>
+
+                            {carrito}
+
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <div id="main" class="pure-u-1">
+                {productos}
+
+                <br/>
+                <ul id="cajaPaginacion" class="pure-paginator"> 
+                    {paginacion}
+                </ul>
+            </div>
+        </div>
+    </body>
+    <script>
+        var borrar = document.getElementsByClassName("borrar");
+        for (var i = 0; i < borrar.length; i++) {
+            borrar[i].addEventListener("click", function (e) {
+                e.preventDefault();
+                var href = this.href;
+                alertify.confirm("¿Quieres borrar linea?", function (e) {
+                    if (e) {
+                        window.location = href;
+                    }
+                });
+            });
+        }
+        var verBorrado = document.getElementById("borrarTodo");
+        verBorrado.addEventListener("click", function (e) {
+            e.preventDefault();
+            var href = this.href;
+            alertify.confirm("¿Quieres borrarlo todo?", function (e) {
+                if (e) {
+                    window.location = href;
+                }
+            });
+        });
+    </script>
+</html>
